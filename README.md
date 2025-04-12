@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# Rendia – A Sleek, Feature-Packed Social Media Platform ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Rendia** is a fully-loaded, modern web app built for creators, coders, and community lovers. Whether you're here to build something amazing or just flex your full-stack skills, this app's got you covered.
 
-Currently, two official plugins are available:
+## 🔥 What Makes Rendia Different?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛂 **GitHub Authentication** – Smooth and secure login flow
+- 💬 **Reddit-style Features** – Posts, nested comments, reactions
+- 🌍 **Real-time Data** – Lightning-fast updates via Supabase
+- 🏘️ **Communities** – Join or create your own spaces
+- 🖋️ **Post Creation** – Share thoughts with clean UI/UX
+- 📱 **Responsive Design** – Looks stunning across devices
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Backend & Auth:** Supabase  
+- **Version Control:** Git + GitHub  
+- **Extras:** GitHub Projects for task tracking
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧪 Why Build Rendia?
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+To break out of repetitive tutorials and finally create something portfolio-worthy. Rendia is a showcase-level project with production-ready practices.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🚧 Project Status
+
+Currently under development. Track progress in the `dev` branch and GitHub Projects board.
+
